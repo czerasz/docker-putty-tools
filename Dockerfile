@@ -1,5 +1,5 @@
-FROM debian:8.3
-MAINTAINER Michał Czeraszkiewicz <contact@czerasz.com>
+FROM debian:9
+LABEL MAINTAINER="Michał Czeraszkiewicz <contact@czerasz.com>"
 
 RUN apt-get update && \
     apt-get -y install putty-tools && \
